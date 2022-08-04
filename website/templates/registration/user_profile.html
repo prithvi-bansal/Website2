@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+		<title>User Profile</title>
+		<style type="text/css">
+			.div1{
+				text-align: center;
+			}
+			.success{
+				color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+			<h1> {{ request.user.username }} Profile </h1>
+			<div>
+				<p>Username - {{user.username}}</p>
+				<p>First Name - {{user.first_name}}</p>
+				<p>Last Name - {{user.last_name}}</p>
+				<p>Email Address - {{user.email}}</p>
+			</div>
+			<a href="{% url 'usereditprofile' %}">Edit Profile</a>
+			<br>
+			<a href="{% url 'changepass' %}">Change Password</a>
+		</div>
+		<a href="{% url 'dashboard' %}">Back To Home</a>
+		<br><br>
+		{% if messages %}
+			{% for message in messages %}
+				<p {% if message.tags %} class="alert alert-{{ message.tags }}" {% endif %} > {{ message }} </p>
+			{% endfor %}
+		{% endif %}
+		<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+	</body>
+</html>

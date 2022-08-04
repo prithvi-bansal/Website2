@@ -1,0 +1,13 @@
+{% extends "rest_framework/base.html" %}
+{% load static %}
+{% load i18n %}
+{% load rest_framework %}
+
+
+{% block userlinks %}
+    {% if user.is_authenticated %}
+       	<a href="{% url 'logoutapi' %}" style="color:white;">Logout {{user}}</a>
+    {% else %}
+		{% optional_login request %}
+   	{% endif %}
+{% endblock %}

@@ -1,0 +1,69 @@
+WARNING 2022-07-25 17:48:31,546 basehttp 24493 140612934301440 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2022-07-25 17:48:31,546 basehttp 24493 140613153224448 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2022-07-25 17:48:31,554 basehttp 24493 140613153224448 "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1834
+WARNING 2022-07-25 17:52:49,799 log 25488 140201060456192 Not Found: /post/comment/post.id
+WARNING 2022-07-25 17:52:49,800 basehttp 25488 140201060456192 "GET /post/comment/post.id HTTP/1.1" 404 6164
+ERROR 2022-07-25 17:53:38,539 log 25565 139644867991296 Internal Server Error: /post/comment/edit/80
+Traceback (most recent call last):
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/views/generic/base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/views/generic/edit.py", line 208, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/views/generic/edit.py", line 136, in form_valid
+    return super().form_valid(form)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/views/generic/edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/views/generic/edit.py", line 121, in get_success_url
+    if self.success_url:
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/utils/functional.py", line 141, in __wrapper__
+    res = func(*self.__args, **self.__kw)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/thoughtwin/.env/website/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'commentcreate' with no arguments not found. 1 pattern(s) tried: ['post/comment/(?P<pk>[0-9]+)\\Z']
+ERROR 2022-07-25 17:53:38,540 basehttp 25565 139644867991296 "POST /post/comment/edit/80 HTTP/1.1" 500 110657
+WARNING 2022-07-26 10:45:09,453 log 3369 139822405175040 Not Found: /
+WARNING 2022-07-26 10:45:09,453 basehttp 3369 139822405175040 "GET / HTTP/1.1" 404 4330
+WARNING 2022-07-26 10:45:09,501 log 3369 139822405175040 Not Found: /favicon.ico
+WARNING 2022-07-26 10:45:09,502 basehttp 3369 139822405175040 "GET /favicon.ico HTTP/1.1" 404 4381
+WARNING 2022-07-26 10:51:16,817 log 3592 139857524041472 Not Found: /
+WARNING 2022-07-26 10:51:16,817 basehttp 3592 139857524041472 "GET / HTTP/1.1" 404 4330
+WARNING 2022-07-26 12:03:29,408 log 3871 140688323008256 Not Found: /
+WARNING 2022-07-26 12:03:29,409 basehttp 3871 140688323008256 "GET / HTTP/1.1" 404 4330
+WARNING 2022-07-26 15:57:33,714 basehttp 10632 140034088695552 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2022-07-26 15:57:33,722 basehttp 10632 140034080302848 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2022-07-26 15:57:33,729 basehttp 10632 140034080302848 "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1834
+WARNING 2022-07-26 16:02:43,547 basehttp 10632 140034080302848 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2022-07-26 16:02:43,555 basehttp 10632 140034067076864 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2022-07-26 16:02:43,561 basehttp 10632 140034067076864 "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1834
+WARNING 2022-07-26 16:41:57,718 basehttp 14151 139811587356416 "GET / HTTP/1.1" 404 4435
+ERROR 2022-07-26 16:42:02,114 basehttp 14151 139811587356416 "GET /test/ HTTP/1.1" 500 71408
+WARNING 2022-07-26 17:44:46,952 basehttp 15791 140224909801216 "GET /test/ HTTP/1.1" 404 4363
+WARNING 2022-07-26 17:55:14,389 basehttp 15791 140224909801216 "GET / HTTP/1.1" 404 4330
+WARNING 2022-07-26 17:55:18,056 basehttp 15791 140224909801216 "GET /register/ HTTP/1.1" 404 4375
+WARNING 2022-07-26 17:55:49,489 basehttp 15791 140224909801216 "GET /api/register/ HTTP/1.1" 405 7998
+WARNING 2022-07-26 18:01:16,771 basehttp 16249 140474736236288 "GET / HTTP/1.1" 404 4330
+WARNING 2022-07-29 12:26:00,530 log 6439 140116693518080 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2022-07-29 12:26:00,544 basehttp 6439 140116693518080 "POST /login/ HTTP/1.1" 403 2518
+ERROR 2022-07-29 12:26:09,850 basehttp 6439 140116693518080 "GET /post/ HTTP/1.1" 500 169718
+ERROR 2022-07-29 12:31:27,324 basehttp 7173 140239246477056 "GET /post/ HTTP/1.1" 500 88807
+ERROR 2022-07-29 12:31:48,605 basehttp 7246 140021034120960 "GET /post/ HTTP/1.1" 500 84432
+ERROR 2022-07-29 12:32:06,632 basehttp 7294 140477199001344 "GET /post/ HTTP/1.1" 500 116409
+WARNING 2022-07-29 13:52:44,945 basehttp 10335 139917060478720 "GET / HTTP/1.1" 404 4439
+WARNING 2022-07-29 18:45:59,637 basehttp 19396 139910908475136 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2022-07-29 18:45:59,641 basehttp 19396 139911136311040 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2022-07-29 18:45:59,653 basehttp 19396 139910891689728 "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1834
+WARNING 2022-07-29 18:47:13,602 basehttp 19396 139910891689728 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2022-07-29 18:47:13,608 basehttp 19396 139910900082432 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2022-07-29 18:47:13,613 basehttp 19396 139911136311040 "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1834
+WARNING 2022-08-01 10:53:36,354 basehttp 3195 140495881557760 "GET / HTTP/1.1" 404 4439
+WARNING 2022-08-01 10:53:36,416 basehttp 3195 140495881557760 "GET /favicon.ico HTTP/1.1" 404 4490

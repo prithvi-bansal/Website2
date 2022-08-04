@@ -1,0 +1,496 @@
+INFO 2022-07-26 16:41:54,020 autoreload 14151 139811743176512 Watching for file changes with StatReloader
+WARNING 2022-07-26 16:41:57,718 basehttp 14151 139811587356416 "GET / HTTP/1.1" 404 4435
+INFO 2022-07-26 16:42:02,075 basehttp 14151 139811587356416 "GET /test HTTP/1.1" 301 0
+ERROR 2022-07-26 16:42:02,114 basehttp 14151 139811587356416 "GET /test/ HTTP/1.1" 500 71408
+INFO 2022-07-26 17:44:43,177 autoreload 15791 140225063716672 Watching for file changes with StatReloader
+WARNING 2022-07-26 17:44:46,952 basehttp 15791 140224909801216 "GET /test/ HTTP/1.1" 404 4363
+INFO 2022-07-26 17:52:03,186 basehttp 15791 140224909801216 "GET /home/signup/ HTTP/1.1" 200 2036
+INFO 2022-07-26 17:52:10,893 basehttp 15791 140224909801216 "GET /login/ HTTP/1.1" 200 1220
+INFO 2022-07-26 17:53:49,929 basehttp 15791 140224909801216 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-07-26 17:53:49,953 basehttp 15791 140224909801216 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-26 17:53:52,735 basehttp 15791 140224909801216 "GET /home/profile/ HTTP/1.1" 200 1000
+INFO 2022-07-26 17:53:54,625 basehttp 15791 140224909801216 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-26 17:53:56,536 basehttp 15791 140224909801216 "GET /post/create/ HTTP/1.1" 200 1341
+INFO 2022-07-26 17:54:10,376 basehttp 15791 140224909801216 "GET /post/users/ HTTP/1.1" 200 2162
+INFO 2022-07-26 17:54:10,416 basehttp 15791 140224909801216 "GET /media/posts/images/city-7309720.jpg HTTP/1.1" 200 3536514
+INFO 2022-07-26 17:54:19,557 basehttp 15791 140224909801216 "GET /post/ HTTP/1.1" 200 15382
+INFO 2022-07-26 17:54:23,648 basehttp 15791 140224909801216 "GET /home/dashboard/ HTTP/1.1" 200 1029
+WARNING 2022-07-26 17:55:14,389 basehttp 15791 140224909801216 "GET / HTTP/1.1" 404 4330
+WARNING 2022-07-26 17:55:18,056 basehttp 15791 140224909801216 "GET /register/ HTTP/1.1" 404 4375
+WARNING 2022-07-26 17:55:49,489 basehttp 15791 140224909801216 "GET /api/register/ HTTP/1.1" 405 7998
+INFO 2022-07-26 17:55:49,509 basehttp 15791 140224909801216 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2022-07-26 17:55:49,518 basehttp 15791 140224901408512 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2022-07-26 17:55:58,868 basehttp 15791 140224901408512 "POST /api/register/ HTTP/1.1" 200 8096
+INFO 2022-07-26 17:56:24,117 basehttp 15791 140224901408512 "POST /api/register/ HTTP/1.1" 200 8087
+INFO 2022-07-26 17:57:26,528 basehttp 15791 140224901408512 "GET /admin/auth/user/ HTTP/1.1" 200 12140
+INFO 2022-07-26 17:57:26,561 basehttp 15791 140224901408512 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-26 17:57:30,598 basehttp 15791 140224901408512 "POST /admin/auth/user/ HTTP/1.1" 200 6807
+INFO 2022-07-26 17:57:31,636 basehttp 15791 140224901408512 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2022-07-26 17:57:31,716 basehttp 15791 140224901408512 "GET /admin/auth/user/ HTTP/1.1" 200 11867
+INFO 2022-07-26 17:57:31,749 basehttp 15791 140224901408512 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-26 17:57:38,661 basehttp 15791 140224901408512 "POST /api/register/ HTTP/1.1" 200 8084
+INFO 2022-07-26 17:59:30,030 autoreload 15791 140225063716672 /home/thoughtwin/proj/website/website/urls.py changed, reloading.
+INFO 2022-07-26 17:59:30,521 autoreload 16249 140474822940480 Watching for file changes with StatReloader
+INFO 2022-07-26 18:00:44,742 basehttp 16249 140474736236288 "GET /api/ HTTP/1.1" 200 5577
+INFO 2022-07-26 18:00:44,755 basehttp 16249 140474736236288 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2022-07-26 18:00:44,759 basehttp 16249 140474736236288 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2022-07-26 18:00:47,909 basehttp 16249 140474736236288 "GET /api/posts/ HTTP/1.1" 200 16902
+INFO 2022-07-26 18:00:52,580 basehttp 16249 140474736236288 "GET /api/ HTTP/1.1" 200 5577
+INFO 2022-07-26 18:00:53,743 basehttp 16249 140474736236288 "GET /api/users/ HTTP/1.1" 200 18304
+INFO 2022-07-26 18:01:02,541 basehttp 16249 140474736236288 "GET /api/ HTTP/1.1" 200 5577
+INFO 2022-07-26 18:01:03,550 basehttp 16249 140474736236288 "GET /api/comments/ HTTP/1.1" 200 12756
+WARNING 2022-07-26 18:01:16,771 basehttp 16249 140474736236288 "GET / HTTP/1.1" 404 4330
+INFO 2022-07-26 18:01:24,838 basehttp 16249 140474736236288 "GET /swagger/ HTTP/1.1" 200 15881
+INFO 2022-07-26 18:01:24,873 basehttp 16249 140474727843584 "GET /static/rest_framework_swagger/bundles/app.bundle.css HTTP/1.1" 200 419
+INFO 2022-07-26 18:01:24,878 basehttp 16249 140474354497280 "GET /static/rest_framework_swagger/logo_small.png HTTP/1.1" 200 458
+INFO 2022-07-26 18:01:24,879 basehttp 16249 140474700248832 "GET /static/rest_framework_swagger/bundles/app.bundle.js HTTP/1.1" 200 1771
+INFO 2022-07-26 18:01:24,881 basehttp 16249 140474736236288 "GET /static/rest_framework_swagger/bundles/vendors.bundle.css HTTP/1.1" 200 153889
+INFO 2022-07-26 18:01:24,899 basehttp 16249 140474708641536 "GET /static/rest_framework_swagger/bundles/vendors.bundle.js HTTP/1.1" 200 1636116
+INFO 2022-07-26 18:03:04,966 basehttp 16249 140474708641536 "GET /post/users/ HTTP/1.1" 200 2162
+INFO 2022-07-26 18:03:06,997 basehttp 16249 140474708641536 "GET /post/users/ HTTP/1.1" 200 2162
+INFO 2022-07-26 18:03:08,078 basehttp 16249 140474708641536 "GET /post/users/ HTTP/1.1" 200 2162
+INFO 2022-07-26 18:47:23,829 autoreload 16249 140474822940480 /home/thoughtwin/proj/website/website/urls.py changed, reloading.
+INFO 2022-07-26 18:47:24,271 autoreload 17498 140321275402048 Watching for file changes with StatReloader
+INFO 2022-07-29 10:59:31,536 autoreload 4239 140031406466880 Watching for file changes with StatReloader
+INFO 2022-07-29 11:01:42,738 basehttp 4239 140031316371200 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2022-07-29 11:01:42,782 basehttp 4239 140031316371200 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 11:01:59,110 basehttp 4239 140031316371200 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 302 0
+INFO 2022-07-29 11:01:59,180 basehttp 4239 140031316371200 "GET /admin/login/?next=/admin/socialaccount/socialaccount/ HTTP/1.1" 200 2275
+INFO 2022-07-29 11:02:04,730 basehttp 4239 140031316371200 "POST /admin/login/?next=/admin/socialaccount/socialaccount/ HTTP/1.1" 302 0
+INFO 2022-07-29 11:02:04,778 basehttp 4239 140031316371200 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 11269
+INFO 2022-07-29 11:02:04,881 basehttp 4239 140031316371200 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 12:24:14,833 autoreload 4239 140031406466880 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:24:15,295 autoreload 6439 140116783613760 Watching for file changes with StatReloader
+WARNING 2022-07-29 12:26:00,530 log 6439 140116693518080 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2022-07-29 12:26:00,544 basehttp 6439 140116693518080 "POST /login/ HTTP/1.1" 403 2518
+INFO 2022-07-29 12:26:02,787 basehttp 6439 140116693518080 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 12:26:08,184 basehttp 6439 140116693518080 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-07-29 12:26:08,200 basehttp 6439 140116693518080 "GET /home/dashboard/ HTTP/1.1" 200 1029
+ERROR 2022-07-29 12:26:09,850 basehttp 6439 140116693518080 "GET /post/ HTTP/1.1" 500 169718
+INFO 2022-07-29 12:26:19,819 basehttp 6439 140116693518080 "GET /post/ HTTP/1.1" 200 14877
+INFO 2022-07-29 12:26:19,878 basehttp 6439 140116673529600 "GET /media/posts/images/download_2_MUd58of.jpeg HTTP/1.1" 200 4157
+INFO 2022-07-29 12:26:19,893 basehttp 6439 140116462925568 "GET /media/posts/images/download_1_oyq8RlS.jpeg HTTP/1.1" 200 5597
+INFO 2022-07-29 12:26:19,913 basehttp 6439 140116454532864 "GET /media/posts/images/images_pGnZe1x.jpeg HTTP/1.1" 200 6275
+INFO 2022-07-29 12:26:19,918 basehttp 6439 140116446140160 "GET /media/posts/images/images_1.jpeg HTTP/1.1" 200 6859
+INFO 2022-07-29 12:26:19,933 basehttp 6439 140116437747456 "GET /media/posts/images/download_UjETcZH.jpeg HTTP/1.1" 200 2939
+INFO 2022-07-29 12:26:19,939 basehttp 6439 140116673529600 "GET /media/posts/images/download_1_BuJRhrI.jpeg HTTP/1.1" 200 5597
+INFO 2022-07-29 12:26:19,943 basehttp 6439 140116693518080 "GET /media/posts/images/city-7309720.jpg HTTP/1.1" 200 3536514
+INFO 2022-07-29 12:27:02,469 autoreload 6439 140116783613760 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:27:03,017 autoreload 6737 139778551506752 Watching for file changes with StatReloader
+INFO 2022-07-29 12:27:03,613 basehttp 6737 139778461935360 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:06,430 basehttp 6737 139778461935360 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:22,109 basehttp 6737 139778461935360 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:41,457 autoreload 6737 139778551506752 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:27:42,120 autoreload 6791 139839756965696 Watching for file changes with StatReloader
+INFO 2022-07-29 12:27:42,928 basehttp 6791 139839667394304 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:47,453 basehttp 6791 139839667394304 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:48,173 basehttp 6791 139839667394304 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:56,902 basehttp 6791 139839667394304 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:57,542 basehttp 6791 139839667394304 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:58,090 basehttp 6791 139839667394304 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:58,604 basehttp 6791 139839667394304 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:27:59,213 basehttp 6791 139839667394304 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:28:50,669 autoreload 6791 139839756965696 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:28:51,128 autoreload 6847 140124088698688 Watching for file changes with StatReloader
+INFO 2022-07-29 12:28:55,821 basehttp 6847 140123998603008 "GET /post/ HTTP/1.1" 200 14878
+INFO 2022-07-29 12:30:18,917 autoreload 6847 140124088698688 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:30:19,382 autoreload 6984 140495662581568 Watching for file changes with StatReloader
+INFO 2022-07-29 12:30:50,616 autoreload 6984 140495662581568 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:30:51,072 autoreload 7063 139760837920576 Watching for file changes with StatReloader
+INFO 2022-07-29 12:30:53,461 autoreload 7063 139760837920576 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:30:53,935 autoreload 7097 140254503765824 Watching for file changes with StatReloader
+INFO 2022-07-29 12:31:09,759 autoreload 7097 140254503765824 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:31:10,213 autoreload 7141 140287658411840 Watching for file changes with StatReloader
+INFO 2022-07-29 12:31:14,695 autoreload 7141 140287658411840 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:31:15,180 autoreload 7173 140239336572736 Watching for file changes with StatReloader
+ERROR 2022-07-29 12:31:27,324 basehttp 7173 140239246477056 "GET /post/ HTTP/1.1" 500 88807
+INFO 2022-07-29 12:31:46,437 autoreload 7173 140239336572736 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:31:46,869 autoreload 7246 140021198116672 Watching for file changes with StatReloader
+ERROR 2022-07-29 12:31:48,605 basehttp 7246 140021034120960 "GET /post/ HTTP/1.1" 500 84432
+INFO 2022-07-29 12:32:02,714 autoreload 7246 140021198116672 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:32:04,516 autoreload 7294 140477289097024 Watching for file changes with StatReloader
+ERROR 2022-07-29 12:32:06,632 basehttp 7294 140477199001344 "GET /post/ HTTP/1.1" 500 116409
+INFO 2022-07-29 12:32:32,613 autoreload 7294 140477289097024 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:32:33,236 autoreload 7321 139935489726272 Watching for file changes with StatReloader
+INFO 2022-07-29 12:32:34,654 autoreload 7321 139935489726272 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:32:35,125 autoreload 7343 140598471026496 Watching for file changes with StatReloader
+INFO 2022-07-29 12:32:35,528 basehttp 7343 140598381455104 "GET /post/ HTTP/1.1" 200 14883
+INFO 2022-07-29 12:33:48,607 autoreload 7343 140598471026496 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:33:49,063 autoreload 7397 140244291516224 Watching for file changes with StatReloader
+INFO 2022-07-29 12:33:59,670 autoreload 7397 140244291516224 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:34:00,204 autoreload 7422 139656274233152 Watching for file changes with StatReloader
+INFO 2022-07-29 12:34:01,610 autoreload 7422 139656274233152 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:34:02,192 autoreload 7447 139986230204224 Watching for file changes with StatReloader
+INFO 2022-07-29 12:34:02,942 basehttp 7447 139986070402816 "GET /post/ HTTP/1.1" 200 14883
+INFO 2022-07-29 12:34:30,514 autoreload 7447 139986230204224 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:34:30,959 autoreload 7466 139794116482880 Watching for file changes with StatReloader
+INFO 2022-07-29 12:34:41,551 autoreload 7466 139794116482880 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:34:41,986 autoreload 7502 139843134416704 Watching for file changes with StatReloader
+INFO 2022-07-29 12:34:45,388 autoreload 7502 139843134416704 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:34:45,894 autoreload 7530 140668212139840 Watching for file changes with StatReloader
+INFO 2022-07-29 12:35:40,962 autoreload 7530 140668212139840 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:35:41,698 autoreload 7555 139978071324480 Watching for file changes with StatReloader
+INFO 2022-07-29 12:35:43,050 autoreload 7555 139978071324480 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:35:43,708 autoreload 7583 139824331388736 Watching for file changes with StatReloader
+INFO 2022-07-29 12:35:44,615 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 14883
+INFO 2022-07-29 12:36:31,816 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 14904
+INFO 2022-07-29 12:37:09,851 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 14942
+INFO 2022-07-29 12:37:29,897 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 14967
+INFO 2022-07-29 12:38:24,973 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 14988
+INFO 2022-07-29 12:38:32,651 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 14990
+INFO 2022-07-29 12:40:03,197 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 15057
+INFO 2022-07-29 12:51:13,040 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 15072
+INFO 2022-07-29 12:51:32,633 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 15072
+INFO 2022-07-29 12:51:38,917 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 15072
+INFO 2022-07-29 12:51:45,116 basehttp 7583 139824241817344 "GET /post/ HTTP/1.1" 200 15072
+INFO 2022-07-29 12:51:50,057 basehttp 7583 139824241817344 "GET /post/?page=2 HTTP/1.1" 200 15112
+INFO 2022-07-29 12:55:24,757 basehttp 7583 139824241817344 "GET /post/?page=2 HTTP/1.1" 200 15232
+INFO 2022-07-29 12:55:27,656 basehttp 7583 139824241817344 "GET /post/?page=1 HTTP/1.1" 200 15158
+INFO 2022-07-29 12:55:33,193 basehttp 7583 139824241817344 "GET /post/?page=3 HTTP/1.1" 200 15163
+INFO 2022-07-29 12:55:57,501 basehttp 7583 139824241817344 "GET /post/?page=3 HTTP/1.1" 200 15164
+INFO 2022-07-29 12:56:20,763 basehttp 7583 139824241817344 "GET /post/?page=3 HTTP/1.1" 200 4082
+INFO 2022-07-29 12:56:24,576 basehttp 7583 139824241817344 "GET /post/?page=2 HTTP/1.1" 200 8181
+INFO 2022-07-29 12:56:28,139 basehttp 7583 139824241817344 "GET /post/?page=1 HTTP/1.1" 200 8896
+INFO 2022-07-29 12:56:37,341 autoreload 7583 139824331388736 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:56:37,873 autoreload 8862 140240921900864 Watching for file changes with StatReloader
+INFO 2022-07-29 12:56:39,296 basehttp 8862 140240832329472 "GET /post/?page=1 HTTP/1.1" 200 6808
+INFO 2022-07-29 12:56:46,896 basehttp 8862 140240832329472 "GET /post/?page=4 HTTP/1.1" 200 4082
+INFO 2022-07-29 12:56:49,292 basehttp 8862 140240832329472 "GET /post/?page=1 HTTP/1.1" 200 6808
+INFO 2022-07-29 12:56:53,755 basehttp 8862 140240832329472 "GET /post/?page=2 HTTP/1.1" 200 6946
+INFO 2022-07-29 12:56:56,660 basehttp 8862 140240832329472 "GET /post/?page=3 HTTP/1.1" 200 6357
+INFO 2022-07-29 12:56:59,098 basehttp 8862 140240832329472 "GET /post/?page=4 HTTP/1.1" 200 4082
+INFO 2022-07-29 12:57:00,777 basehttp 8862 140240832329472 "GET /post/?page=1 HTTP/1.1" 200 6808
+INFO 2022-07-29 12:57:06,364 autoreload 8862 140240921900864 /home/thoughtwin/proj/website/website/apps/posts/views.py changed, reloading.
+INFO 2022-07-29 12:57:06,837 autoreload 8902 140266677598016 Watching for file changes with StatReloader
+INFO 2022-07-29 12:57:29,441 basehttp 8902 140266518345472 "GET /post/?page=1 HTTP/1.1" 200 6817
+INFO 2022-07-29 12:57:58,629 basehttp 8902 140266518345472 "GET /post/?page=1 HTTP/1.1" 200 6816
+INFO 2022-07-29 12:58:09,330 basehttp 8902 140266518345472 "GET /post/?page=1 HTTP/1.1" 200 6818
+INFO 2022-07-29 12:59:01,278 basehttp 8902 140266518345472 "GET /post/?page=1 HTTP/1.1" 200 6839
+INFO 2022-07-29 12:59:04,200 basehttp 8902 140266518345472 "GET /post/?page=1 HTTP/1.1" 200 6839
+INFO 2022-07-29 12:59:05,894 basehttp 8902 140266518345472 "GET /post/?page=2 HTTP/1.1" 200 6980
+INFO 2022-07-29 12:59:07,107 basehttp 8902 140266518345472 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-29 12:59:09,608 basehttp 8902 140266518345472 "GET /post/ HTTP/1.1" 200 6839
+INFO 2022-07-29 12:59:13,055 basehttp 8902 140266518345472 "GET /post/?page=2 HTTP/1.1" 200 6980
+INFO 2022-07-29 12:59:17,436 basehttp 8902 140266518345472 "GET /post/?page=1 HTTP/1.1" 200 6839
+INFO 2022-07-29 12:59:20,556 basehttp 8902 140266518345472 "POST /post/likes/ HTTP/1.1" 200 31
+INFO 2022-07-29 12:59:20,872 basehttp 8902 140266518345472 "POST /post/likes/ HTTP/1.1" 200 32
+INFO 2022-07-29 12:59:21,634 basehttp 8902 140266518345472 "POST /post/likes/ HTTP/1.1" 200 31
+INFO 2022-07-29 12:59:21,982 basehttp 8902 140266518345472 "POST /post/likes/ HTTP/1.1" 200 32
+INFO 2022-07-29 12:59:23,454 basehttp 8902 140266518345472 "POST /post/likes/ HTTP/1.1" 200 31
+INFO 2022-07-29 12:59:23,639 basehttp 8902 140266518345472 "POST /post/likes/ HTTP/1.1" 200 32
+INFO 2022-07-29 12:59:26,801 basehttp 8902 140266518345472 "GET /post/?page=1 HTTP/1.1" 200 6839
+INFO 2022-07-29 12:59:29,529 basehttp 8902 140266518345472 "GET /post/?page=2 HTTP/1.1" 200 6980
+INFO 2022-07-29 12:59:32,434 basehttp 8902 140266518345472 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-29 13:17:18,713 basehttp 8902 140266501560064 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-29 13:17:20,017 basehttp 8902 140266501560064 "GET /post/ HTTP/1.1" 200 7710
+INFO 2022-07-29 13:17:25,543 basehttp 8902 140266501560064 "GET /post/?page=2 HTTP/1.1" 200 7948
+INFO 2022-07-29 13:17:28,577 basehttp 8902 140266501560064 "GET /post/?page=3 HTTP/1.1" 200 7359
+INFO 2022-07-29 13:17:31,238 basehttp 8902 140266501560064 "GET /post/?page=4 HTTP/1.1" 200 4984
+INFO 2022-07-29 13:17:33,557 basehttp 8902 140266501560064 "GET /post/?page=3 HTTP/1.1" 200 7359
+INFO 2022-07-29 13:17:40,042 basehttp 8902 140266501560064 "GET /post/?page=1 HTTP/1.1" 200 7710
+INFO 2022-07-29 13:18:19,605 basehttp 8902 140266501560064 "GET /post/?page=1 HTTP/1.1" 200 7731
+INFO 2022-07-29 13:18:27,585 basehttp 8902 140266501560064 "GET /post/?page=1 HTTP/1.1" 200 7732
+INFO 2022-07-29 13:18:45,864 basehttp 8902 140266501560064 "GET /post/?page=1 HTTP/1.1" 200 7737
+INFO 2022-07-29 13:18:51,873 basehttp 8902 140266501560064 "GET /post/?page=1 HTTP/1.1" 200 7737
+INFO 2022-07-29 13:18:53,063 basehttp 8902 140266501560064 "GET /post/?page=4 HTTP/1.1" 200 5011
+INFO 2022-07-29 13:18:54,552 basehttp 8902 140266501560064 "GET /post/?page=1 HTTP/1.1" 200 7737
+INFO 2022-07-29 13:20:34,455 basehttp 8902 140266501560064 "GET /post/?page=1 HTTP/1.1" 200 7614
+INFO 2022-07-29 13:52:40,948 autoreload 8902 140266677598016 /home/thoughtwin/proj/website/website/apps/api_view/api_views.py changed, reloading.
+INFO 2022-07-29 13:52:41,389 autoreload 10315 140614763648832 Watching for file changes with StatReloader
+INFO 2022-07-29 13:52:42,779 autoreload 10315 140614763648832 /home/thoughtwin/proj/website/website/apps/api_view/api_views.py changed, reloading.
+INFO 2022-07-29 13:52:43,332 autoreload 10335 139917150574400 Watching for file changes with StatReloader
+WARNING 2022-07-29 13:52:44,945 basehttp 10335 139917060478720 "GET / HTTP/1.1" 404 4439
+INFO 2022-07-29 13:52:47,106 basehttp 10335 139917060478720 "GET /api HTTP/1.1" 301 0
+INFO 2022-07-29 13:52:47,155 basehttp 10335 139917060478720 "GET /api/ HTTP/1.1" 200 5577
+INFO 2022-07-29 13:52:47,187 basehttp 10335 139917041538816 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2022-07-29 13:52:47,188 basehttp 10335 139917033146112 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2022-07-29 13:52:47,188 basehttp 10335 139917024753408 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2022-07-29 13:52:47,202 basehttp 10335 139916671444736 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2022-07-29 13:52:47,211 basehttp 10335 139917041538816 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2022-07-29 13:52:47,212 basehttp 10335 139916679837440 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2022-07-29 13:52:47,212 basehttp 10335 139917033146112 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2022-07-29 13:52:47,213 basehttp 10335 139917024753408 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2022-07-29 13:52:47,213 basehttp 10335 139917060478720 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2022-07-29 13:52:47,216 basehttp 10335 139917060478720 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2022-07-29 13:52:47,218 basehttp 10335 139917024753408 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2022-07-29 13:52:49,229 basehttp 10335 139917060478720 "GET /api/posts/ HTTP/1.1" 200 17430
+INFO 2022-07-29 13:53:30,133 basehttp 10335 139917060478720 "GET /api/posts/ HTTP/1.1" 200 17430
+INFO 2022-07-29 13:55:44,704 basehttp 10335 139917060478720 "GET /api/posts/ HTTP/1.1" 200 17430
+INFO 2022-07-29 13:58:33,261 autoreload 10335 139917150574400 /home/thoughtwin/proj/website/website/settings/base.py changed, reloading.
+INFO 2022-07-29 13:58:33,696 autoreload 10805 139676715816768 Watching for file changes with StatReloader
+INFO 2022-07-29 13:58:36,093 autoreload 10805 139676715816768 /home/thoughtwin/proj/website/website/settings/base.py changed, reloading.
+INFO 2022-07-29 13:58:36,811 autoreload 10827 140565546190656 Watching for file changes with StatReloader
+INFO 2022-07-29 13:58:39,847 basehttp 10827 140565455832832 "GET /api/posts/ HTTP/1.1" 200 15103
+INFO 2022-07-29 13:58:50,083 basehttp 10827 140565455832832 "GET /api/posts/?page=2 HTTP/1.1" 200 14506
+INFO 2022-07-29 13:58:53,640 basehttp 10827 140565455832832 "GET /api/posts/?page=3 HTTP/1.1" 200 11391
+INFO 2022-07-29 13:58:57,360 basehttp 10827 140565455832832 "GET /api/posts/?page=2 HTTP/1.1" 200 14506
+INFO 2022-07-29 13:58:57,938 basehttp 10827 140565455832832 "GET /api/posts/ HTTP/1.1" 200 15103
+INFO 2022-07-29 13:59:01,952 basehttp 10827 140565455832832 "GET /api/ HTTP/1.1" 200 5577
+INFO 2022-07-29 13:59:12,503 autoreload 10827 140565546190656 /home/thoughtwin/proj/website/website/settings/base.py changed, reloading.
+INFO 2022-07-29 13:59:12,952 autoreload 10884 140447003338560 Watching for file changes with StatReloader
+INFO 2022-07-29 13:59:18,392 autoreload 10884 140447003338560 /home/thoughtwin/proj/website/website/settings/base.py changed, reloading.
+INFO 2022-07-29 13:59:19,027 autoreload 10908 140306811905856 Watching for file changes with StatReloader
+INFO 2022-07-29 13:59:20,477 basehttp 10908 140306649446144 "GET /api/posts/ HTTP/1.1" 200 16287
+INFO 2022-07-29 13:59:22,331 basehttp 10908 140306649446144 "GET /api/posts/?page=2 HTTP/1.1" 200 13509
+INFO 2022-07-29 13:59:29,096 basehttp 10908 140306649446144 "GET /api/posts/ HTTP/1.1" 200 16287
+INFO 2022-07-29 13:59:34,040 autoreload 10908 140306811905856 /home/thoughtwin/proj/website/website/settings/base.py changed, reloading.
+INFO 2022-07-29 13:59:36,497 autoreload 10953 140613707335488 Watching for file changes with StatReloader
+INFO 2022-07-29 13:59:41,950 autoreload 10953 140613707335488 /home/thoughtwin/proj/website/website/apps/api_view/api_views.py changed, reloading.
+INFO 2022-07-29 13:59:42,443 autoreload 10982 140524167784256 Watching for file changes with StatReloader
+INFO 2022-07-29 13:59:45,842 autoreload 10982 140524167784256 /home/thoughtwin/proj/website/website/apps/api_view/api_views.py changed, reloading.
+INFO 2022-07-29 13:59:46,308 autoreload 11005 140144907315008 Watching for file changes with StatReloader
+INFO 2022-07-29 17:10:08,885 autoreload 14632 139756861343552 Watching for file changes with StatReloader
+INFO 2022-07-29 17:10:18,273 autoreload 14632 139756861343552 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:10:20,766 autoreload 14658 140172274345792 Watching for file changes with StatReloader
+INFO 2022-07-29 17:10:26,096 autoreload 14658 140172274345792 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:10:28,539 autoreload 14678 140154094765888 Watching for file changes with StatReloader
+INFO 2022-07-29 17:10:58,210 autoreload 14678 140154094765888 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:10:58,625 autoreload 14694 139735584683840 Watching for file changes with StatReloader
+INFO 2022-07-29 17:11:03,954 autoreload 14694 139735584683840 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:11:07,308 autoreload 14730 139682550650688 Watching for file changes with StatReloader
+INFO 2022-07-29 17:11:47,024 autoreload 14730 139682550650688 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:11:47,473 autoreload 14772 139741808990016 Watching for file changes with StatReloader
+INFO 2022-07-29 17:11:55,842 autoreload 14772 139741808990016 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:11:58,285 autoreload 14797 140332189964096 Watching for file changes with StatReloader
+INFO 2022-07-29 17:14:12,155 autoreload 14797 140332189964096 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:14:12,574 autoreload 14838 139729879344960 Watching for file changes with StatReloader
+INFO 2022-07-29 17:14:26,157 autoreload 14838 139729879344960 /home/thoughtwin/proj/website/website/apps/users/views.py changed, reloading.
+INFO 2022-07-29 17:14:28,426 autoreload 14874 140133469812544 Watching for file changes with StatReloader
+INFO 2022-07-29 17:14:30,837 autoreload 14874 140133469812544 /home/thoughtwin/proj/website/website/apps/users/views.py changed, reloading.
+INFO 2022-07-29 17:14:31,305 autoreload 14893 139971928479552 Watching for file changes with StatReloader
+INFO 2022-07-29 17:14:36,050 basehttp 14893 139971770967808 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-29 17:14:37,553 basehttp 14893 139971770967808 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-07-29 17:14:37,571 basehttp 14893 139971770967808 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 17:15:12,849 autoreload 14893 139971928479552 /home/thoughtwin/proj/website/website/apps/users/views.py changed, reloading.
+INFO 2022-07-29 17:15:13,319 autoreload 14932 139757832836928 Watching for file changes with StatReloader
+INFO 2022-07-29 17:15:14,678 autoreload 14932 139757832836928 /home/thoughtwin/proj/website/website/apps/users/views.py changed, reloading.
+INFO 2022-07-29 17:15:15,126 autoreload 14966 140507579938624 Watching for file changes with StatReloader
+INFO 2022-07-29 17:17:46,060 autoreload 15109 139909223057216 Watching for file changes with StatReloader
+INFO 2022-07-29 17:17:50,123 basehttp 15109 139909132699392 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 302 0
+INFO 2022-07-29 17:17:50,197 basehttp 15109 139909132699392 "GET /admin/login/?next=/admin/socialaccount/socialaccount/ HTTP/1.1" 200 2275
+INFO 2022-07-29 17:17:56,053 basehttp 15109 139909132699392 "POST /admin/login/?next=/admin/socialaccount/socialaccount/ HTTP/1.1" 302 0
+INFO 2022-07-29 17:17:56,105 basehttp 15109 139909132699392 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 11269
+INFO 2022-07-29 17:17:56,131 basehttp 15109 139909132699392 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:17:58,296 basehttp 15109 139909132699392 "GET /admin/auth/user/ HTTP/1.1" 200 14385
+INFO 2022-07-29 17:17:58,313 basehttp 15109 139909113235200 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2022-07-29 17:17:58,321 basehttp 15109 139909113235200 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2022-07-29 17:17:58,326 basehttp 15109 139909132699392 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:17:58,357 basehttp 15109 139909132699392 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2022-07-29 17:18:04,731 basehttp 15109 139909132699392 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 24056
+INFO 2022-07-29 17:18:04,757 basehttp 15109 139908886816512 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2022-07-29 17:18:04,758 basehttp 15109 139908895209216 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2022-07-29 17:18:04,759 basehttp 15109 139909132699392 "GET /static/admin/css/forms.css HTTP/1.1" 200 8878
+INFO 2022-07-29 17:18:04,766 basehttp 15109 139908878423808 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+INFO 2022-07-29 17:18:04,766 basehttp 15109 139908870031104 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+INFO 2022-07-29 17:18:04,771 basehttp 15109 139909113235200 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:18:04,779 basehttp 15109 139909113235200 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2022-07-29 17:18:04,783 basehttp 15109 139909113235200 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2022-07-29 17:18:04,802 basehttp 15109 139909132699392 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2022-07-29 17:18:04,851 basehttp 15109 139909113235200 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2022-07-29 17:18:04,863 basehttp 15109 139909113235200 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2022-07-29 17:18:04,863 basehttp 15109 139908870031104 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2022-07-29 17:18:04,863 basehttp 15109 139909132699392 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2022-07-29 17:18:04,863 basehttp 15109 139908878423808 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2022-07-29 17:18:07,054 basehttp 15109 139908870031104 "GET /admin/auth/user/ HTTP/1.1" 200 14385
+INFO 2022-07-29 17:20:54,560 autoreload 15109 139909223057216 /home/thoughtwin/proj/website/website/apps/users/admin.py changed, reloading.
+INFO 2022-07-29 17:20:55,022 autoreload 15391 139747767768896 Watching for file changes with StatReloader
+INFO 2022-07-29 17:22:52,114 autoreload 15747 139668896872256 Watching for file changes with StatReloader
+INFO 2022-07-29 17:22:57,584 autoreload 15747 139668896872256 /home/thoughtwin/proj/website/website/apps/users/admin.py changed, reloading.
+INFO 2022-07-29 17:22:58,128 autoreload 15759 140445196375872 Watching for file changes with StatReloader
+INFO 2022-07-29 17:23:08,445 basehttp 15759 140445106018048 "GET /admin/auth/user/ HTTP/1.1" 200 14385
+INFO 2022-07-29 17:23:08,474 basehttp 15759 140445106018048 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:12,013 autoreload 15759 140445196375872 /home/thoughtwin/.env/website/lib/python3.8/site-packages/django/contrib/auth/admin.py changed, reloading.
+INFO 2022-07-29 17:29:12,471 autoreload 16069 140049855088448 Watching for file changes with StatReloader
+INFO 2022-07-29 17:29:13,841 autoreload 16069 140049855088448 /home/thoughtwin/.env/website/lib/python3.8/site-packages/django/contrib/auth/admin.py changed, reloading.
+INFO 2022-07-29 17:29:14,280 autoreload 16076 140126577035072 Watching for file changes with StatReloader
+INFO 2022-07-29 17:29:18,282 basehttp 16076 140126486677248 "GET /admin/auth/user/ HTTP/1.1" 200 14722
+INFO 2022-07-29 17:29:18,325 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:22,714 basehttp 16076 140126486677248 "GET /admin/auth/user/?o=1.2 HTTP/1.1" 200 15445
+INFO 2022-07-29 17:29:22,743 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:28,030 basehttp 16076 140126486677248 "GET /admin/auth/user/?o=1 HTTP/1.1" 200 15033
+INFO 2022-07-29 17:29:28,052 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:32,884 basehttp 16076 140126486677248 "GET /admin/auth/user/?o=2.1 HTTP/1.1" 200 15445
+INFO 2022-07-29 17:29:32,913 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:35,434 basehttp 16076 140126486677248 "GET /admin/auth/user/?o=-2.1 HTTP/1.1" 200 15470
+INFO 2022-07-29 17:29:35,454 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:36,515 basehttp 16076 140126486677248 "GET /admin/auth/user/?o=2.1 HTTP/1.1" 200 15445
+INFO 2022-07-29 17:29:36,540 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:37,451 basehttp 16076 140126486677248 "GET /admin/auth/user/?o=1 HTTP/1.1" 200 15033
+INFO 2022-07-29 17:29:37,481 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:42,896 basehttp 16076 140126486677248 "GET /admin/auth/user/?o=-1 HTTP/1.1" 200 15056
+INFO 2022-07-29 17:29:42,920 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:43,724 basehttp 16076 140126486677248 "GET /admin/auth/user/?o=1 HTTP/1.1" 200 15033
+INFO 2022-07-29 17:29:43,751 basehttp 16076 140126486677248 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:29:53,074 autoreload 16076 140126577035072 /home/thoughtwin/.env/website/lib/python3.8/site-packages/django/contrib/auth/admin.py changed, reloading.
+INFO 2022-07-29 17:29:53,521 autoreload 16129 140603227961152 Watching for file changes with StatReloader
+INFO 2022-07-29 17:30:02,040 autoreload 16129 140603227961152 /home/thoughtwin/.env/website/lib/python3.8/site-packages/django/contrib/auth/admin.py changed, reloading.
+INFO 2022-07-29 17:30:02,577 autoreload 16142 140408033363776 Watching for file changes with StatReloader
+INFO 2022-07-29 17:30:03,854 basehttp 16142 140407943792384 "GET /admin/auth/user/?o=1 HTTP/1.1" 200 14696
+INFO 2022-07-29 17:30:03,881 basehttp 16142 140407943792384 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:30:31,734 autoreload 16142 140408033363776 /home/thoughtwin/proj/website/website/apps/users/admin.py changed, reloading.
+INFO 2022-07-29 17:30:32,174 autoreload 16213 139982436456256 Watching for file changes with StatReloader
+INFO 2022-07-29 17:31:22,699 autoreload 16213 139982436456256 /home/thoughtwin/proj/website/website/apps/users/admin.py changed, reloading.
+INFO 2022-07-29 17:31:23,155 autoreload 16355 140656486143808 Watching for file changes with StatReloader
+INFO 2022-07-29 17:31:32,549 autoreload 16355 140656486143808 /home/thoughtwin/proj/website/website/apps/users/admin.py changed, reloading.
+INFO 2022-07-29 17:31:34,971 autoreload 16388 140572665780032 Watching for file changes with StatReloader
+INFO 2022-07-29 17:32:28,901 autoreload 16513 140686410622784 Watching for file changes with StatReloader
+INFO 2022-07-29 17:32:44,335 autoreload 16513 140686410622784 /home/thoughtwin/proj/website/website/apps/users/admin.py changed, reloading.
+INFO 2022-07-29 17:32:44,842 autoreload 16530 140399008188224 Watching for file changes with StatReloader
+INFO 2022-07-29 17:33:05,758 autoreload 16530 140399008188224 /home/thoughtwin/.env/website/lib/python3.8/site-packages/django/contrib/auth/admin.py changed, reloading.
+INFO 2022-07-29 17:33:06,200 autoreload 16563 140565035226944 Watching for file changes with StatReloader
+INFO 2022-07-29 17:33:08,555 autoreload 16563 140565035226944 /home/thoughtwin/.env/website/lib/python3.8/site-packages/django/contrib/auth/admin.py changed, reloading.
+INFO 2022-07-29 17:33:09,045 autoreload 16571 139699690977088 Watching for file changes with StatReloader
+INFO 2022-07-29 17:33:12,184 basehttp 16571 139699600619264 "GET /admin/auth/user/?o=1 HTTP/1.1" 200 15033
+INFO 2022-07-29 17:33:12,215 basehttp 16571 139699600619264 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-07-29 17:33:41,013 basehttp 16571 139699600619264 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 17:34:02,973 autoreload 16571 139699690977088 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:34:03,404 autoreload 16612 139631309653824 Watching for file changes with StatReloader
+INFO 2022-07-29 17:34:11,992 autoreload 16612 139631309653824 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:34:12,446 autoreload 16641 140327620577088 Watching for file changes with StatReloader
+INFO 2022-07-29 17:34:13,799 autoreload 16641 140327620577088 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:34:14,230 autoreload 16658 140049254295360 Watching for file changes with StatReloader
+INFO 2022-07-29 17:34:16,659 basehttp 16658 140049163937536 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 17:34:17,706 basehttp 16658 140049163937536 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 17:34:18,685 basehttp 16658 140049163937536 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 17:34:19,822 basehttp 16658 140049163937536 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 17:34:20,764 basehttp 16658 140049163937536 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 17:37:06,662 autoreload 16658 140049254295360 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:37:07,108 autoreload 16725 140438234326848 Watching for file changes with StatReloader
+INFO 2022-07-29 17:37:18,697 autoreload 16725 140438234326848 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:37:19,147 autoreload 16771 140704326879040 Watching for file changes with StatReloader
+INFO 2022-07-29 17:44:46,768 autoreload 16771 140704326879040 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:44:47,329 autoreload 17228 140668528023360 Watching for file changes with StatReloader
+INFO 2022-07-29 17:47:50,238 autoreload 17228 140668528023360 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:47:50,725 autoreload 17509 139629852829504 Watching for file changes with StatReloader
+INFO 2022-07-29 17:47:52,025 autoreload 17509 139629852829504 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:47:54,454 autoreload 17540 140569181202240 Watching for file changes with StatReloader
+INFO 2022-07-29 17:48:27,279 autoreload 17540 140569181202240 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:48:27,741 autoreload 17555 140339267581760 Watching for file changes with StatReloader
+INFO 2022-07-29 17:48:30,115 autoreload 17555 140339267581760 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:48:30,581 autoreload 17584 140516095399744 Watching for file changes with StatReloader
+INFO 2022-07-29 17:48:35,650 basehttp 17584 140516005041920 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 17:48:37,836 basehttp 17584 140516005041920 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 17:48:42,157 basehttp 17584 140516005041920 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-07-29 17:48:42,175 basehttp 17584 140516005041920 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-29 17:48:43,706 basehttp 17584 140516005041920 "GET /post/ HTTP/1.1" 200 7614
+INFO 2022-07-29 17:48:47,627 basehttp 17584 140516005041920 "GET /post/?page=4 HTTP/1.1" 200 4888
+INFO 2022-07-29 17:48:47,660 basehttp 17584 140516005041920 "GET /media/posts/images/download_1_oyq8RlS.jpeg HTTP/1.1" 304 0
+INFO 2022-07-29 17:48:49,365 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3611
+INFO 2022-07-29 17:49:10,098 basehttp 17584 140516005041920 "POST /post/addcomment/ HTTP/1.1" 200 117
+INFO 2022-07-29 17:49:17,075 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3828
+INFO 2022-07-29 17:49:26,563 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3828
+INFO 2022-07-29 17:49:27,292 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3828
+INFO 2022-07-29 17:49:28,145 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3828
+INFO 2022-07-29 17:49:28,799 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3828
+INFO 2022-07-29 17:49:29,816 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3828
+INFO 2022-07-29 17:49:30,546 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3828
+INFO 2022-07-29 17:49:31,518 basehttp 17584 140516005041920 "GET /post/comment/7 HTTP/1.1" 200 3828
+INFO 2022-07-29 17:54:34,390 autoreload 17584 140516095399744 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 17:54:34,944 autoreload 17984 139747866269504 Watching for file changes with StatReloader
+INFO 2022-07-29 18:24:47,349 autoreload 17984 139747866269504 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 18:24:47,811 autoreload 18910 140541406127936 Watching for file changes with StatReloader
+INFO 2022-07-29 18:25:05,302 autoreload 18910 140541406127936 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 18:25:05,754 autoreload 18950 140158116788032 Watching for file changes with StatReloader
+INFO 2022-07-29 18:25:08,162 autoreload 18950 140158116788032 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 18:25:08,640 autoreload 18972 140272233969472 Watching for file changes with StatReloader
+INFO 2022-07-29 18:25:14,155 basehttp 18972 140272076494592 "GET /post/ HTTP/1.1" 200 7614
+INFO 2022-07-29 18:25:16,190 basehttp 18972 140272076494592 "POST /post/likes/ HTTP/1.1" 200 31
+INFO 2022-07-29 18:25:16,924 basehttp 18972 140272076494592 "POST /post/likes/ HTTP/1.1" 200 32
+INFO 2022-07-29 18:25:17,874 basehttp 18972 140272076494592 "POST /post/likes/ HTTP/1.1" 200 31
+INFO 2022-07-29 18:25:18,238 basehttp 18972 140272076494592 "POST /post/likes/ HTTP/1.1" 200 32
+INFO 2022-07-29 18:25:26,953 basehttp 18972 140272076494592 "POST /post/likes/ HTTP/1.1" 200 31
+INFO 2022-07-29 18:25:36,298 basehttp 18972 140272076494592 "GET /post/ HTTP/1.1" 200 7630
+INFO 2022-07-29 18:32:10,670 autoreload 18972 140272233969472 /home/thoughtwin/proj/website/website/apps/users/signals.py changed, reloading.
+INFO 2022-07-29 18:32:11,148 autoreload 19396 139911226668864 Watching for file changes with StatReloader
+INFO 2022-07-29 18:44:32,684 basehttp 19396 139911136311040 "GET /post/?page=2 HTTP/1.1" 200 7854
+INFO 2022-07-29 18:44:36,835 basehttp 19396 139911136311040 "GET /post/?page=3 HTTP/1.1" 200 7265
+INFO 2022-07-29 18:44:40,132 basehttp 19396 139911136311040 "GET /post/?page=4 HTTP/1.1" 200 5121
+INFO 2022-07-29 18:44:42,110 basehttp 19396 139911136311040 "GET /post/?page=3 HTTP/1.1" 200 7265
+INFO 2022-07-29 18:44:46,593 basehttp 19396 139911136311040 "GET /post/?page=1 HTTP/1.1" 200 7630
+INFO 2022-07-29 18:44:58,941 basehttp 19396 139911136311040 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-29 18:45:00,580 basehttp 19396 139911136311040 "GET /post/users/ HTTP/1.1" 200 2365
+INFO 2022-07-29 18:45:06,242 basehttp 19396 139911136311040 "GET /home/profile/ HTTP/1.1" 200 1000
+INFO 2022-07-29 18:45:13,402 basehttp 19396 139911136311040 "GET /post/create/ HTTP/1.1" 200 2658
+INFO 2022-07-29 18:45:13,417 basehttp 19396 139911136311040 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1525
+INFO 2022-07-29 18:45:13,422 basehttp 19396 139910908475136 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 753458
+INFO 2022-07-29 18:45:13,479 basehttp 19396 139910908475136 "GET /static/ckeditor/ckeditor/config.js?t=M2G9 HTTP/1.1" 200 336
+INFO 2022-07-29 18:45:13,493 basehttp 19396 139911136311040 "GET /static/ckeditor/ckeditor/lang/en.js?t=M2G9 HTTP/1.1" 200 17445
+INFO 2022-07-29 18:45:13,493 basehttp 19396 139910908475136 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M2G9 HTTP/1.1" 200 48309
+INFO 2022-07-29 18:45:13,503 basehttp 19396 139910908475136 "GET /static/ckeditor/ckeditor/styles.js?t=M2G9 HTTP/1.1" 200 5577
+INFO 2022-07-29 18:45:13,522 basehttp 19396 139910908475136 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M2G9 HTTP/1.1" 200 381
+INFO 2022-07-29 18:45:13,522 basehttp 19396 139911136311040 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M2G9 HTTP/1.1" 200 419
+INFO 2022-07-29 18:45:13,522 basehttp 19396 139910900082432 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M2G9 HTTP/1.1" 200 1145
+INFO 2022-07-29 18:45:13,523 basehttp 19396 139910891689728 "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M2G9 HTTP/1.1" 200 249
+INFO 2022-07-29 18:45:13,528 basehttp 19396 139910908475136 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M2G9 HTTP/1.1" 200 1511
+INFO 2022-07-29 18:45:13,557 basehttp 19396 139910908475136 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=5fe059002f HTTP/1.1" 200 12237
+INFO 2022-07-29 18:45:13,608 basehttp 19396 139910908475136 "GET /static/ckeditor/ckeditor/contents.css?t=M2G9 HTTP/1.1" 200 3092
+INFO 2022-07-29 18:45:39,652 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:41,052 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:42,033 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:42,815 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:44,329 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:45,054 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:45,869 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:46,666 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:47,403 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:48,068 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:49,387 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2657
+INFO 2022-07-29 18:45:53,821 basehttp 19396 139910908475136 "GET /post/create/ HTTP/1.1" 200 2658
+WARNING 2022-07-29 18:45:59,637 basehttp 19396 139910908475136 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2022-07-29 18:45:59,641 basehttp 19396 139911136311040 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2022-07-29 18:45:59,653 basehttp 19396 139910891689728 "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1834
+INFO 2022-07-29 18:47:13,490 basehttp 19396 139910900082432 "GET /post/create/ HTTP/1.1" 200 2658
+WARNING 2022-07-29 18:47:13,602 basehttp 19396 139910891689728 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2022-07-29 18:47:13,608 basehttp 19396 139910900082432 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2022-07-29 18:47:13,613 basehttp 19396 139911136311040 "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1834
+INFO 2022-07-29 18:48:00,194 basehttp 19396 139911136311040 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-29 18:48:01,329 basehttp 19396 139911136311040 "GET /home/dashboard/ HTTP/1.1" 200 1029
+INFO 2022-07-29 18:48:02,657 basehttp 19396 139911136311040 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-07-29 18:48:02,668 basehttp 19396 139911136311040 "GET /home/ HTTP/1.1" 200 858
+INFO 2022-07-29 18:48:04,196 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:10,874 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:14,765 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:16,382 basehttp 19396 139911136311040 "GET /post/?page=1 HTTP/1.1" 200 7636
+INFO 2022-07-29 18:48:17,967 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:20,141 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:21,169 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:22,374 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:23,152 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:23,837 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:24,573 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-07-29 18:48:25,281 basehttp 19396 139911136311040 "GET /login/ HTTP/1.1" 200 1648
+INFO 2022-08-01 10:53:07,730 autoreload 3195 140496039044928 Watching for file changes with StatReloader
+WARNING 2022-08-01 10:53:36,354 basehttp 3195 140495881557760 "GET / HTTP/1.1" 404 4439
+WARNING 2022-08-01 10:53:36,416 basehttp 3195 140495881557760 "GET /favicon.ico HTTP/1.1" 404 4490
+INFO 2022-08-01 10:53:39,349 basehttp 3195 140495881557760 "GET /admin/ HTTP/1.1" 200 11420
+INFO 2022-08-01 10:53:39,376 basehttp 3195 140495881557760 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,379 basehttp 3195 140495853963008 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,379 basehttp 3195 140495873165056 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,380 basehttp 3195 140495845570304 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,394 basehttp 3195 140495845570304 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,399 basehttp 3195 140495845570304 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,407 basehttp 3195 140495873165056 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,408 basehttp 3195 140495845570304 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,413 basehttp 3195 140495873165056 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,477 basehttp 3195 140495873165056 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,478 basehttp 3195 140495853963008 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:39,480 basehttp 3195 140495845570304 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:46,096 basehttp 3195 140495845570304 "GET /admin/ HTTP/1.1" 200 11420
+INFO 2022-08-01 10:53:47,646 basehttp 3195 140495845570304 "GET /admin/ HTTP/1.1" 200 11420
+INFO 2022-08-01 10:53:49,697 basehttp 3195 140495845570304 "GET /admin/socialaccount/socialaccount/ HTTP/1.1" 200 11269
+INFO 2022-08-01 10:53:49,712 basehttp 3195 140495845570304 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,723 basehttp 3195 140495881557760 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,724 basehttp 3195 140495873165056 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,727 basehttp 3195 140495485396736 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,736 basehttp 3195 140495493789440 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,739 basehttp 3195 140495485396736 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,739 basehttp 3195 140495881557760 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,741 basehttp 3195 140495873165056 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,748 basehttp 3195 140495493789440 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,753 basehttp 3195 140495853963008 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-08-01 10:53:49,759 basehttp 3195 140495853963008 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:49,827 basehttp 3195 140495873165056 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2022-08-01 10:53:52,264 basehttp 3195 140495873165056 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 10480
+INFO 2022-08-01 10:53:52,292 basehttp 3195 140495873165056 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-08-01 10:53:59,344 basehttp 3195 140495873165056 "GET /admin/socialaccount/socialapp/ HTTP/1.1" 200 10480
+INFO 2022-08-01 10:53:59,369 basehttp 3195 140495873165056 "GET /admin/jsi18n/ HTTP/1.1" 200 3343

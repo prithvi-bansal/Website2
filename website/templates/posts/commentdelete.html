@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+		<title>Delete Comment</title>
+	</head>
+	<body>
+		<h2>Delete Comment</h2>
+		<br>
+		<form method="post">
+			{% csrf_token %}
+			<h3>Are You Sure?</h3>
+			<input type="submit" value="Delete!">
+		</form>
+		<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+	    <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+	    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+	</body>
+</html>
