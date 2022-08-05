@@ -53,12 +53,16 @@ INSTALLED_APPS = [
     'payment',
     'api_view',
     'api_url',
+    'cache',
+    'thread',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.cache.FetchFromCacheMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -345,3 +349,27 @@ CELERY_TIMEZONE = 'Asia/Kolkata'
 STRIPE_SECRET_KEY = 'sk_test_51LSxHwSHRENcAYQVgIuvOn2KLvbkd4CC6Bbes1s8UsaAthJe1aTAucBoK6VJ5QzU5cCnLq3sdrBPKMjWGSGfhpl100frHodmpP'
 STRIPE_PUBLISHABLE_KEY = 'pk_test_51LSxHwSHRENcAYQVANMkY7zcxUKDneqh09Lvg7IQqHL9rU1eYLPWWAt5btvywoT5SOT4zyH2lFGImtDIYxgYmNvD00crfaqJ4p'
 
+
+# CACHE STUFF
+# CACHE_MIDDLEWARE_SECONDS = 60
+
+CACHES = { 
+    'default': {
+        'BACKEND' : 'django.core.cache.backends.db.DatabaseCache',
+        'LOCATION' : 'my_cache_table',
+    } 
+}
+
+# CACHES = { 
+#     'default': {
+#         'BACKEND' : 'django.core.cache.backends.filebased.FileBasedCache',
+#         'LOCATION' : '/home/thoughtwin/website/cache',
+#     } 
+# }
+
+# CACHES = { 
+#     'default': {
+#         'BACKEND' : 'django.core.cache.backends.locmem.LocMemCache',
+#         'LOCATION' : 'unique-snowflake',
+#     } 
+# }

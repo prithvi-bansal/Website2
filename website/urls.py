@@ -26,6 +26,8 @@ schema_view = get_swagger_view(title='Website API')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('django.contrib.auth.urls')),
+    path('cache/', include('caching.urls')),
+    path('thread/', include('thread.urls')),
     path('home/', include('users.urls')),
     path('post/', include('posts.urls')),
     path('pay/', include('payment.urls')),

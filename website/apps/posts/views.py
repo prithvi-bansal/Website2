@@ -7,6 +7,7 @@ from django.urls import reverse, reverse_lazy
 from django.utils import timezone, dateformat
 from django.core.mail import send_mail
 from django.core.paginator import Paginator
+from datetime import datetime
 from .models import Post, Like, Comment
 from .forms import PostForm, CommentForm
 import json
@@ -75,7 +76,9 @@ class PostUserView(ListView):
 	def get_context_data(self, **kwargs):
 		context = super().get_context_data(**kwargs)
 		current_user = self.request.user
+		print(datetime.now())
 		context = Post.objects.filter(author = current_user)
+		print(datetime.now())
 		context = {'context':context}
 		logger.info('Hello')
 		return context

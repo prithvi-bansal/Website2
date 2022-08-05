@@ -8,7 +8,9 @@ from django.http import HttpResponseRedirect
 from .models import Profile
 from .forms import SignUpForm
 # from .signals import notification
+
 # Create your views here.
+
 
 def home(request):
 	# notification.send(sender=None, request=request, user=None) #Signal Send
