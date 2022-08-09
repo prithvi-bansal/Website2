@@ -9,7 +9,8 @@ router.register('comments', api_views.CommentModelViewSet, basename='comments')
 
 urlpatterns = [
 	path('', include(router.urls)),
-	path('register/', api_views.UserRegister.as_view()),
-	path('loginapi/', api_views.UserLogin.as_view()),
+	path('postlist/', api_views.PostList.as_view(), name='postlist'),
+	path('register/', api_views.UserRegister.as_view(), name='registerapi'),
+	path('loginapi/', api_views.UserLogin.as_view(), name='loginapi'),
 	path('logoutapi/', api_views.UserLogout.as_view(), name='logoutapi'),
 ]

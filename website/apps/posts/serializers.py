@@ -15,6 +15,14 @@ class PostSerializer(serializers.ModelSerializer):
 		model = Post
 		fields = ['id', 'post_title', 'author', 'post_text', 'post_image', 'likes_count', 'comments']
 
+
+class PostSerializer2(serializers.ModelSerializer):
+	author = serializers.ReadOnlyField(source = 'author.username')
+	class Meta:
+		model = Post
+		fields = ['id', 'post_title', 'author', 'post_text', 'post_image']
+
+
 class UserSerializer(serializers.ModelSerializer):
 	posts = PostSerializer(many=True)
 	
@@ -27,6 +35,9 @@ class UserLoginSerializer(serializers.Serializer):
 	password = serializers.CharField(style={'input_type':'password'})
 
 class UserRegisterSerializer(serializers.ModelSerializer):
+	username = serializers.CharField(required=True)
+	email = serializers.EmailField(max_length=100, required=True)
+	password = serializers.CharField(max_length=100, required=True)
 	class Meta:
 		model = User
 		fields = ['username', 'email', 'password']

@@ -9,10 +9,10 @@ from ckeditor.fields import RichTextField
 class Post(models.Model):
 	post_title = models.CharField(max_length=100)
 	created_on = models.DateTimeField(default=timezone.now)
-	author = models.ForeignKey(User, related_name='posts', on_delete=models.CASCADE)
+	author = models.ForeignKey(User, related_name='posts', default=None, null=True, blank=True, on_delete=models.CASCADE)
 	post_text = RichTextField(blank=True, null=True)
 	# post_text = models.TextField()
-	post_image = models.ImageField(upload_to='posts/images/')
+	post_image = models.ImageField(upload_to='posts/images/', blank=True, null=True)
 	likes = models.ManyToManyField(User, related_name='likes', blank=True)
 	likes_count = models.BigIntegerField(default='0')
 
