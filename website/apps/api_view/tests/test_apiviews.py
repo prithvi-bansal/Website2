@@ -45,7 +45,7 @@ class TestPostView(APITestCase):
 			"post_title":"test_post",
 			"author": self.user,
 			"post_text":"my_test_body",
-			"post_image": "",
+			"post_image": "media/posts/image/1.jpg",
 		}
 	
 	def test_post_api_user_authenticated_or_read_only(self):
