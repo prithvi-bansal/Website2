@@ -13,9 +13,13 @@ app = Celery('website')
 app.config_from_object('django.conf:settings')
 
 app.conf.beat_schedule = {
-    'every-minute':{
+    'fixed-time':{
         'task' : 'users.tasks.periodic',
         'schedule' : crontab(hour=16, minute=40, day_of_week=1),
+    },
+    'every-minute':{
+        'task' : 'users.tasks.periodic',
+        'schedule' : crontab(),
     },
 }
 

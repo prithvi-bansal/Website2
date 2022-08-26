@@ -32,7 +32,7 @@ urlpatterns = [
     path('post/', include('posts.urls')),
     path('pay/', include('payment.urls')),
     path('api/', include('api_url.api_urls')),
-    path('rest-auth/', include('rest_auth.urls')),
+    # path('rest-auth/', include('rest_auth.urls')),
     path('api-auth/', include('rest_framework.urls')),
     # path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     # path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
