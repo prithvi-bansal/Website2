@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.sites',
 
     'django_celery_beat',
+    'phone_field',
+    'phonenumber_field',
 
     # 'social_django',
     'allauth',
