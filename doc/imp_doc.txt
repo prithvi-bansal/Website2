@@ -1,0 +1,3 @@
+$('#DIVTAG').find('*').prop('disabled', true);
+
+----->  Disable fields in html 

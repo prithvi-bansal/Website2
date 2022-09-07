@@ -1,0 +1,4 @@
+	def post(self, request, *args, **kwargs):
+		form = AmgApplicationForm(request.POST)
+		for field in form:
+			print("Field Error:", field.name,  field.errors)

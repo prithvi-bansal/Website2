@@ -1,0 +1,49 @@
+-----------To ADD Mutliple SSH KEY in github config file------------
+
+---------TERMINAL
+	$ ssh-keygen 
+	give the location name-- Enter file in which to save the key (/home/hp/.ssh/id_rsa): /home/hp/.ssh/<name>
+
+	$  cat ~/.ssh/<name>.pub (copy this ssh key)
+	
+--------ON GITHUB---
+add this SSH key under settings  
+
+--------create a config file in .ssh folder add like below
+
+Host github.com-<name enter at the time of key-gen>
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/<name enter at the time of key-gen>
+	 	
+	
+-----------AT The time of project initialization on github------------------
+
+$ git init
+$ git config user.name "Eshita"
+$ git config user.email "itiseshita@gmail.com"
+$ git remote set-url origin git@github.com-<name enter at the time of key-gen>:EshitaMehta/fb_blog_post.git	
+$ git config -l (check for the git configuration)
+
+
+ ssh-keygen (press enter for blank)
+ cat ~/.ssh/id_rsa.pub (copy this ssh key)
+ git config remote.origin.url "<---------------------ADD SSH KEY URL OF THE REPOSITORY-------------------->"
+ git config -l (check for the git configuration)
+ 
+ 
+ 
+ 
+ ----------------------CONFIG EXAMPLE----------------------------
+ 
+Host github.com-thomas
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/thomas
+Host github.com- id_rsa
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa (edited) 
+ 
+ 
+ 
