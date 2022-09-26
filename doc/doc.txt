@@ -1,0 +1,72 @@
+no of days btn 2 dates :- 
+
+{{ to_date|timeuntil:from_date }}
+
+-------------------------------------------------------------
+Just use this in django template:
+
+{{you_date_field|date:'Y-m-d'}}
+
+This will show something like 2016-10-16. You can use the format as you want.
+
+-----------------------------------------------------------------------------------
+$('#DIVTAG').find('*').prop('disabled', true);
+
+----->  Disable fields in html 
+
+-----------------------------------------------------
+
+python manage.py migrate --run-syncdb
+
+-----------------------------------------------------
+loop counter
+
+{% with next_element=list|next:forloop.counter0 %}
+
+---------------------------------------------------------
+git remove cache
+
+git rm *.pyc --cached
+
+------------------------------------------------------
+no record found
+
+<tbody id="all_doantions">
+    <td colspan="7">
+        <div class="d-flex align-items-center justify-content-center no-recors-caption">
+            <h4>No record found</h4>
+        </div>
+    </td>
+</tbody>
+
+---------------------------------------------------------------------------------------------------
+truncate characters in html
+
+|truncatechars:150
+
+-----------------------------------------------------------
+Django template tags filter with multiple arguments
+
+@register.filter
+def customTag(value, first, second):
+    ...
+    return result
+
+Template
+
+{{ valor|customTag:first|customTag:second }}
+
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
